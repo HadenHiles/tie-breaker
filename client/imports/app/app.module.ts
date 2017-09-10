@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
+import { MaterialModule } from "@angular/material";
 import { DemoComponent } from "./demo/demo.component";
 import { DemoDataService } from "./demo/demo-data.service";
 
@@ -20,7 +21,8 @@ import { DemoDataService } from "./demo/demo-data.service";
   ],
   // Modules
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterialModule
   ],
   // Main Component
   bootstrap: [ AppComponent ]
